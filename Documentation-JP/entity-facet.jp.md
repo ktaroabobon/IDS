@@ -34,10 +34,10 @@ IFCスキーマのドキュメントには、標準の事前定義タイプの�
 
 | 適用範囲                           | 要件                 | ファセット定義                                                |
 |--------------------------------|--------------------|--------------------------------------------------------|
-| すべての区画壁                        | 区画壁でなければならない       | 名前="IFCWALL", 事前定義タイプ="PARTITIONING"                   |
-| すべての床スラブ                       | 床スラブでなければならない      | 名前="IFCSLAB", 事前定義タイプ="FLOOR"                          |
-| ドアタイプ一覧表で文書化される可能性があるすべてのドアタイプ | ドアタイプでなければならない     | 名前="IFCDOORTYPE"                                       |
-| すべての建物の階層                      | 建物の階層でなければならない     | 名前="IFCBUILDINGSTOREY"                                 |
-| 図面、一覧表、マニュアル、仕様書などのすべての関連文書    | 文書でなければならない        | 名前="IFCDOCUMENTINFORMATION"                            |
-| 温水システム、電気回路などのすべての配管・配線システム    | 配管・配線システムでなければならない | 名前=["IFCDISTRIBUTIONSYSTEM", "IFCDISTRIBUTIONCIRCUIT"] |
-| 工事進行スケジュールの作業分解構造におけるすべての建設タスク | 建設タスクでなければならない     | 名前="IFCTASK", 事前定義タイプ="CONSTRUCTION"                   |
+| すべての区画壁                        | 区画壁でなければならない       | Name="IFCWALL", PredefinedType="PARTITIONING"                   |
+| すべての床スラブ                       | 床スラブでなければならない      | Name="IFCSLAB", PredefinedType="FLOOR"                          |
+| ドアタイプ一覧表で文書化される可能性があるすべてのドアタイプ | ドアタイプでなければならない     | Name="IFCDOORTYPE"                                       |
+| すべての建物の階層                      | 建物の階層でなければならない     | Name="IFCBUILDINGSTOREY"                                |
+| 図面、一覧表、マニュアル、仕様書などのすべての関連文書    | 文書でなければならない        | Name="IFCDOCUMENTINFORMATION"                            |
+| 温水システム、電気回路などのすべての配管・配線システム    | 配管・配線システムでなければならない | Name=["IFCDISTRIBUTIONSYSTEM", "IFCDISTRIBUTIONCIRCUIT"] |
+| 工事進行スケジュールの作業分解構造におけるすべての建設タスク | 建設タスクでなければならない     | Name="IFCTASK", PredefinedType="CONSTRUCTION"                   |
