@@ -33,7 +33,7 @@ IDSファイルの読み取りと作成のみを行うソフトウェアを書�
 
 ## IFCに対するIDSのチェック
 
-IDSチェックを実装するソフトウェアは、`Documentation/testcases`フォルダーにあるIFC/IDSペアのテストスイートに準拠する必要があります（[テストケースのドキュメント](testscases/scripts.md)を参照）。
+IDSチェックを実装するソフトウェアは、`Documentation/testcases`フォルダーにあるIFC/IDSペアのテストスイートに準拠する必要があります（[テストケースのドキュメント](../Documentation/testscases/scripts.md)を参照）。
 
 さらに、ユーザーに以下の機能を提供することも強く推奨されます：
 
